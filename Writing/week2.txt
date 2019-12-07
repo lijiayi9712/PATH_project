@@ -1,0 +1,44 @@
+Week 2
+
+Monday 6/25:
+
+Jiayi and I prepared sensitivity analysis and filtering procedure for 1pm presentation
+Generated more graphs and finished up powerpoint
+
+Presented Powerpoint, received feedback:
+- Good visuals because they show our results and actually give info others can use
+- TODO: Make a histogram of headings, perhaps over a week or a month. We expect 4 peaks at 0, 90, 180, 270 degrees
+because most things are going N/E/S/W, so we should see if that is the case. Divide into 36 or 360 bins
+    - also do a histogram of heading with 10 degree increments for bins
+    - compare headings from different providers - we want to see if there's a provider that always has 0 heading! or
+    anything else strange
+- TODO: Understand trip lengths. Why do we have 700km trips? Is it bc of long trips or is it wrong?
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Tuesday 6/26:
+
+Morning: work on headings histogram
+
+TODO:
+- get more numbers
+    - how many outliers, negative transmission times
+    - how many data points we lose (for various parameter combos)
+- more heading visualization / analysis
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Thursday 6/28
+
+Today: worked on bug fixing for main preprocess
+studied shell scripts in the morning
+found preprocessing errors (median, data and speed lists not being cleared)
+
+Tomorrow Morning:
+- analysis
+
+Tomorrow afternoon:
+- presentation
+- report
+- fix git
+- try to make files runnable by other people

@@ -1,0 +1,11 @@
+import glob
+
+# This file should be in the directory that contains the "Analysis" folder
+# The "Analysis" folder needs to contain two folders: "data_raw" and "analysis_output"
+# Run this file: snakemake -p (p will print log in terminal)
+#                          -np (dry run with printing)
+
+filedates = glob_wildcards("Analysis/data_raw/probe_data_I210.{date}.waynep1.csv").date
+
+rule preprocess:
+	shell: "python3 preprocess.py {filedates}"
